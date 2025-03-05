@@ -18,15 +18,13 @@ export function FloatingDockDemo() {
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#hero",
     },
 
     {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      title: "About",
+
+      href: "#about",
     },
     {
       title: "Components",
@@ -72,8 +70,7 @@ export function FloatingDockDemo() {
   ];
   return (
     // <div className="flex items-center justify-center h-[35rem] w-full">
-    <div className="flex items-end justify-center h-screen w-full">
-
+    <div className="flex items-end justify-top justify-center h-screen w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}
