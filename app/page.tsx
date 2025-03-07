@@ -2,15 +2,18 @@
 
 import HeroSection from "@/pages/herosection";
 import ContactSection from "@/pages/contactsection";
-import { FloatingDockDemo } from "@/components/floatingDock";
+import AboutSection from "@/pages/aboutsection";
+import Navbar from "@/components/navbar";
+
 export default function Home() {
   return (
     <>
-      <FloatingDockDemo />
+      <Navbar />
 
       <main className="relative flex flex-col overflow-hidden mx-auto">
         {/* Hero Section with Particles */}
         <HeroSection />
+        <AboutSection />
 
         {/*         <EducationSection />
          */}

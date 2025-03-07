@@ -5,8 +5,8 @@ const herosection = () => {
 
   return (
     <section
-      id="about"
-      className="relative flex flex-col lg:flex-row justify-center items-center bg-black text-white
+      id="home"
+      className="relative flex flex-col lg:flex-row justify-center items-center bg-white text-black
         min-h-screen sm:h-auto overflow-hidden px-6 sm:px-12"
       ref={ref}
     >
